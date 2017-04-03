@@ -8,6 +8,7 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
+	/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
@@ -16,6 +17,7 @@
 	border-radius: 30px;
 	background: #869791;
 	filter: Alpha(Opacity=50);
+	/*IE7 fix*/
 	opacity: 0.5;
 }
 
@@ -30,6 +32,7 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
+	/*IE7 life-saver */
 }
 
 .owl-theme .owl-controls .owl-page span {
